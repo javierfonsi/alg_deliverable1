@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">  
+     
+</head>
+<body>
+    
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Pricing</a>
+                </li>
+                                           
+                </ul>
+            </div>
+            </div>
+        </nav>
+         
+        <div class="container bg-white mt-5 p-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <h2>Alumno</h2>
+                    <div class="mb-3">
+                        <p></p>
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                    <h2>Lista de programadores</h2>
+                    <div class="d-grid gap-2 mb-2">
+                        <button class="btn btn-danger" type="button"><ion-icon name="download-outline"></ion-icon> Exportar PDF</button>                        
+                    </div>                   
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                            <th scope="col">Genre</th>
+                            <th scope="col">Age</th>
+                            <th scope="col">Speciality</th>
+                            <th scope="col">Options</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td><ion-icon name="accessibility-outline"></ion-icon></td>
+                            <td>45</td>
+                            <td>Gamer</td>
+                            <td><ion-icon name="pencil-sharp" class="mx-1 p-1 text-white bg-primary"></ion-icon><ion-icon name="trash-sharp" class="p-1 text-white bg-danger"></ion-icon></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <td><ion-icon name="accessibility-outline"></ion-icon></td>
+                            <td>25</td>
+                            <td>Student</td>
+                            <td><ion-icon name="pencil-sharp" class="mx-1 p-1 text-white bg-primary"></ion-icon><ion-icon name="trash-sharp" class="p-1 text-white bg-danger"></ion-icon></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Roberto</td>
+                            <td>Hoover</td>
+                            <td>@fat</td>
+                            <td><ion-icon name="accessibility-outline"></ion-icon></td>
+                            <td>46</td>
+                            <td>Programer</td>
+                            <td><ion-icon name="pencil-sharp" class="mx-1 p-1 text-white bg-primary"></ion-icon><ion-icon name="trash-sharp" class="p-1 text-white bg-danger"></ion-icon></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

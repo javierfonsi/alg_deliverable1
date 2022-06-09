@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+section{
+    max-width: 900px;
+    background-color: aliceblue;
+    border: 2px solid royalblue;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-around;
+    align-items: center;    
+    height: 300px;
+}
+
+.title{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+.text-decimal input{
+    padding: 3px;
+}
+
+p.text-decimal{
+    color: rgb(74, 74, 89);
+    font-size: 20px;
+}
+
+p.btn{
+    margin-top: 10px;       
+}
+
+input{
+    color: black;
+}
+
+p.btn input{
+    color: white;
+}
+
+.btn input{
+    padding: 8px;
+    background-color: #FF5F6D;
+    border: none;
+    border-radius: 10px;
+}
+
+p.text-traductor{
+    margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+    .header{       
+        font-size: 20px;        
+    }
+}
+
+@media (max-width: 700px) {
+    section{
+        max-width: 500px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 400px;      
+    }
+    .container-left{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 550px) {
+    .header{       
+        font-size: 18px;        
+    }
+    section{
+        max-width: 450px;
+        padding: 15px;
+    }    
+}
+
